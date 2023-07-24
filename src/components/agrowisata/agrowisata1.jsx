@@ -1,9 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import gambar1 from "../../assets/agrowisata/via-gogik.png";
-import gambar2 from "../../assets/agrowisata/via-pendem.png";
-import gambar3 from "../../assets/agrowisata/via-sawit.png";
-import map_muncak from "../../assets/agrowisata/map-muncak.png";
+import gambar1 from "../../assets/agrowisata/TNP.jpg";
+import gambar2 from "../../assets/agrowisata/kemahatv.jpg";
+import gambar3 from "../../assets/agrowisata/telomoyo.JPG";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Agrowisata2 from "../../components/agrowisata/agrowisata2";
@@ -12,22 +11,22 @@ import Agrowisata4 from "../../components/agrowisata/agrowisata4";
 // import "./tentang.css";
 
 const Agrowisata1 = () => {
-  const handlePendem = () => {
-    const element = document.getElementById("pendem");
+  const handleTNP = () => {
+    const element = document.getElementById("tnp");
     if (element) {
       // 👇 Will scroll smoothly to the top of the next section
       element.scrollIntoView({ behavior: "smooth" });
     }
   };
-  const handleGogik = () => {
-    const element = document.getElementById("gogik");
+  const handleKemahatv = () => {
+    const element = document.getElementById("kemahatv");
     if (element) {
       // 👇 Will scroll smoothly to the top of the next section
       element.scrollIntoView({ behavior: "smooth" });
     }
   };
-  const handleSawit = () => {
-    const element = document.getElementById("sawit");
+  const handleTelomoyo = () => {
+    const element = document.getElementById("telomoyo");
     if (element) {
       // 👇 Will scroll smoothly to the top of the next section
       element.scrollIntoView({ behavior: "smooth" });
@@ -80,7 +79,7 @@ const Agrowisata1 = () => {
 
   return (
     <div
-      className="items-center bg-[#FFFDEC] pt-24 pb-16 px-8 xl:px-24"
+      className="items-center bg-basic pt-24 pb-16 px-8 xl:px-24"
       data-aos="fade-down"
       data-aos-duration="1000"
     >
@@ -96,21 +95,21 @@ const Agrowisata1 = () => {
           <div className="container flex-col xl:flex-row flex items-center justify-center">
             <div
               className="transform hover:transition-all hover:scale-[110%] pb-4 xl:pb-0 px-4"
-              onClick={handlePendem}
+              onClick={handleTNP}
             >
-              <img className="" src={gambar2} alt="pendem"></img>
+              <img className="rounded-2xl" src={gambar1} alt="tnp"></img>
             </div>
             <div
               className="transform hover:transition-all hover:scale-[110%] pb-4 xl:pb-0 px-4"
-              onClick={handleGogik}
+              onClick={handleKemahatv}
             >
-              <img className="" src={gambar1} alt="gogik"></img>
+              <img className="rounded-2xl" src={gambar2} alt="kemahatv"></img>
             </div>
             <div
               className="transform hover:transition-all hover:scale-[110%] pb-4 xl:pb-0 px-4"
-              onClick={handleSawit}
+              onClick={handleTelomoyo}
             >
-              <img className="" src={gambar3} alt="sawit"></img>
+              <img className="rounded-2xl" src={gambar3} alt="telomoyo"></img>
             </div>
           </div>
         </div>

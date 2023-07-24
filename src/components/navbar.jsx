@@ -94,34 +94,6 @@ const Navbar = () => {
             UMKM
           </li>
         </NavLink>
-        {/* <NavLink
-          exact
-          to="/festival-seni"
-          className={({ isActive }) => (isActive ? "font-bold" : "font-normal")}
-        >
-          <li
-            onClick={() => {
-              window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-            }}
-            className="w-auto translate-x-4 transform cursor-pointer py-5 text-center hover:animate-fade hover:bg-pattern hover:bg-cover hover:bg-center hover:font-bold"
-          >
-            Festival Seni
-          </li>
-        </NavLink>
-        <NavLink
-          exact
-          to="/tiket"
-          className={({ isActive }) => (isActive ? "font-bold" : "font-normal")}
-        >
-          <li
-            onClick={() => {
-              window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-            }}
-            className="w-auto -translate-x-2 transform cursor-pointer py-5 text-center hover:animate-fade hover:bg-pattern hover:bg-cover hover:bg-center hover:font-bold"
-          >
-            Tiket
-          </li>
-        </NavLink> */}
       </ul>
       <div className=" my-auto items-center sm:block xl:hidden mobile:block">
         <div className="mb-0 px-10 outline-none">
@@ -197,32 +169,7 @@ const Navbar = () => {
               UMKM
             </Link>
           </li>
-          {/* <li>
-            <Link
-              onClick={() => {
-                window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-                setNavbar(false);
-              }}
-              to="/festival-seni"
-              className="block px-2 py-4 text-2xl font-bold transition duration-300 hover:bg-green-500"
-            >
-              Festival Seni
-            </Link>
-          </li>
-          <li>
-            <Link
-              onClick={() => {
-                window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-                setNavbar(false);
-              }}
-              to="/tiket"
-              className="block px-2 py-4 text-2xl font-bold transition duration-300 hover:bg-green-500"
-            >
-              Tiket
-            </Link>
-          </li> */}
         </ul>
-        {/* </div> */}
       </CSSTransition>
     </div>
   );

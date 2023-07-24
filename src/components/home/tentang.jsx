@@ -12,7 +12,7 @@ const Tentang = () => {
   const isDesktop = width > 640;
 
   return (
-    <div className="items-center bg-[#FFFDEC] pt-8 xl:pt-16 pb-8 block px-8 xl:px-24">
+    <div className="items-center bg-basic pt-8 xl:pt-16 pb-8 block px-8 xl:px-24">
       <div className="xl:grid xl:grid-cols-2 flex flex-col">
         <div
           className="relative items-end text-left text-white mobile:text-sm xl:w-[90%]"

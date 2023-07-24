@@ -55,7 +55,7 @@ const Umkm3= () => {
   const isDesktop = width > 640;
 
   return (
-    <div className="items-center bg-[#FFFDEC] py-24 xl:py-24 px-8 xl:px-24">
+    <div className="items-center bg-basic py-24 xl:py-24 px-8 xl:px-24">
       <div className="">
         <div
           className="relative items-center text-white text-sm"
@@ -80,30 +80,30 @@ const Umkm3= () => {
           <div className="relative container flex-col xl:flex-row flex items-center text-white text-sm"
             data-aos-duration="1000" data-aos="fade-right">
             <div className="transform hover:transition-all hover:scale-[105%] pb-4 xl:pb-0 px-4">
-              <img className="" src={gambar1} alt="rectangle"></img>
+              <img className="rounded-xl" src={gambar1} alt="rectangle"></img>
               <div className="text-light-green sm:text-base text-center mr-11">
-                Natural
+                Robusta Natural Fine
               </div>
             </div>
             <div className="transform hover:transition-all hover:scale-[105%] pb-4 xl:pb-0 px-4">
-              <img className="" src={gambar2} alt="rectangle"></img>
+              <img className="rounded-xl" src={gambar2} alt="rectangle"></img>
               <div className="text-light-green sm:text-base text-center mr-11">
-                Asalan
+                Robusta Asalan Sortase
               </div>
             </div>
           </div>
           <div className="relative container flex-col xl:flex-row flex items-center text-white text-sm"
             data-aos-duration="1000" data-aos="fade-left">
             <div className="transform hover:transition-all hover:scale-[105%] pb-4 xl:pb-0 px-4">
-              <img className="" src={gambar3} alt="rectangle"></img>
+              <img className="rounded-xl" src={gambar3} alt="rectangle"></img>
               <div className="text-light-green sm:text-base text-center mr-11">
-                Honey
+                Robusta Honey Fine
               </div>
             </div>
             <div className="transform hover:transition-all hover:scale-[105%] pb-4 xl:pb-0 px-4">
-              <img className="" src={gambar4} alt="rectangle"></img>
+              <img className="rounded-xl" src={gambar4} alt="rectangle"></img>
               <div className="text-light-green sm:text-base text-center mr-11">
-                Telomoyo
+                Telomoyo Semi 
               </div>
             </div>
           </div>

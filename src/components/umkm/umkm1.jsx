@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import gambar1 from "../../assets/umkm/makanan1.jpg";
 import gambar2 from "../../assets/umkm/makanan2.jpg";
 import gambar3 from "../../assets/umkm/makanan3.jpg";
+import gambar4 from "../../assets/umkm/makanan4.JPG";
+import gambar5 from "../../assets/umkm/makanan5.JPG";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Slider from "react-slick";
@@ -54,7 +56,7 @@ const Umkm1 = () => {
   const isDesktop = width > 640;
 
   return (
-    <div className="items-center bg-[#FFFDEC] py-24 xl:py-24 px-8 xl:px-24">
+    <div className="items-center bg-basic py-24 xl:py-24 px-8 xl:px-24">
       <div className="">
         <div
           className="relative items-center text-white text-sm"
@@ -71,21 +73,27 @@ const Umkm1 = () => {
               </div>
             </div>
           </div>
-          {/* <div className="text-light-green sm:text-base xl:text-xl text-center mb-10">
-            Telusuri lebih lanjut tentang apa yang kami tawarkan.
-          </div> */}
           <div className="container flex-col xl:flex-row flex items-center">
             <div className="transform hover:transition-all hover:scale-[105%] pb-4 xl:pb-0 px-4">
-              <img className="" src={gambar1} alt="rectangle"></img>
+              <img className="rounded-xl" src={gambar1} alt="rectangle"></img>
               {/* <div className="text-light-green sm:text-base text-center mr-11 text">
                 Keripik
               </div> */}
             </div>
             <div className="transform hover:transition-all hover:scale-[105%] pb-4 xl:pb-0 px-4">
-              <img className="" src={gambar2} alt="rectangle"></img>
+              <img className="rounded-xl" src={gambar2} alt="rectangle"></img>
             </div>
             <div className="transform hover:transition-all hover:scale-[105%] pb-4 xl:pb-0 px-4">
-              <img className="" src={gambar3} alt="rectangle"></img>
+              <img className="rounded-xl" src={gambar3} alt="rectangle"></img>
+            </div>
+          </div>
+          <br />
+          <div className="container flex-col xl:flex-row flex items-center">
+            <div className="transform hover:transition-all hover:scale-[105%] pb-4 xl:pb-0 px-4">
+              <img className="rounded-xl" src={gambar4} alt="rectangle"></img>
+            </div>
+            <div className="transform hover:transition-all hover:scale-[105%] pb-4 xl:pb-0 px-4">
+              <img className="rounded-xl" src={gambar5} alt="rectangle"></img>
             </div>
           </div>
         </div>

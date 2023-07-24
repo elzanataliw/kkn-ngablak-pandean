@@ -1,12 +1,9 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import gambar1 from "../../assets/umkm/foto_basecamp 1.jpg";
-import gambar2 from "../../assets/umkm/foto_basecamp 2.jpg";
-import gambar3 from "../../assets/umkm/foto_basecamp 3.jpg";
-import gambar4 from "../../assets/umkm/foto_basecamp 4.jpg";
-import gambar5 from "../../assets/umkm/foto_basecamp 5.jpg";
-import gambar6 from "../../assets/umkm/foto_basecamp 6.jpg";
-// import gambar2 from "../../assets/umkm/foto_basecamp 2.jpg";
+import gambar1 from "../../assets/umkm/telomoyo1.JPG";
+import gambar2 from "../../assets/umkm/telomoyo2.JPG";
+import gambar3 from "../../assets/umkm/telomoyo3.jpg";
+import gambar4 from "../../assets/umkm/telomoyo4.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Slider from "react-slick";
@@ -58,7 +55,7 @@ const Umkm5 = () => {
   const isDesktop = width > 640;
 
   return (
-    <div className="items-center bg-[#FFFDEC] pt-24 pb-12 xl:py-24 px-8 xl:px-24">
+    <div className="items-center bg-basic pt-24 pb-12 xl:py-24">
       <div className="">
         <div
           className="relative items-center text-white text-sm"
@@ -76,7 +73,7 @@ const Umkm5 = () => {
             <div className=" xl:pb-0 content-center justify-self-center col-span-2 xl:col-span-2 xl:col-start-2 flex justify-center items-center mb-3 mr-1">
               <img
                 className="rounded-xl h-full w-full items-center flex justify-center content-center justify-self-center"
-                src={gambar5}
+                src={gambar1}
                 alt="rectangle"
               ></img>
             </div>
@@ -87,22 +84,14 @@ const Umkm5 = () => {
                 alt="rectangle"
               ></img>
             </div>
-            <div className="transform xl:pb-0 flex justify-center items-center xl:col-span-2 col-span-4 mb-3 xl:mr-1">
-              <img
-                className="rounded-xl h-full w-full items-center flex justify-center content-center"
-                src={gambar1}
-                alt="rectangle"
-              ></img>
-            </div>
-
-            <div className="transform xl:pb-0 content-center col-span-2 flex justify-center xl:col-span-2 items-center mb-3 mr-1 xl:ml-1">
+            <div className="xl:pb-0 content-center justify-self-center col-span-2 xl:col-span-2 xl:col-start-2 flex justify-center items-center mb-3 mr-1">
               <img
                 className="rounded-xl h-full w-full items-center flex justify-center content-center"
                 src={gambar3}
                 alt="rectangle"
               ></img>
             </div>
-            <div className="transform xl:pb-0 content-center col-span-2 flex justify-center xl:col-span-2 items-center mb-3 ml-1">
+            <div className="xl:pb-0 content-center justify-self-center col-span-2 xl:col-span-2 xl:col-start-4 flex justify-center items-center mb-3 ml-1">
               <img
                 className="rounded-xl h-full w-full items-center flex justify-center content-center"
                 src={gambar4}
@@ -110,10 +99,10 @@ const Umkm5 = () => {
               ></img>
             </div>
           </div>
-          <div className="text-light-green text-sm xl:text-lg text-justify mt-2 font-normal">
+          <div className="text-light-green text-sm xl:text-lg text-center mt-2 font-semibold">
             Berkeliling menikmati pemandangan memukau sekitar Desa Pandean dan Gunung Telomoyo bisa juga Anda lakukan,
             <br/>
-            Atau bersantai sejenak sambil foto-foto di Taman Langit dan cafe pilihan Anda!    
+            Atau bersantai sejenak sambil foto-foto di cafe pilihan Anda!    
               </div>      
         </div>
       </div>

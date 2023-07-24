@@ -36,9 +36,6 @@ const footer = () => {
                     </span>
                   </p>
                 </span>
-                {/* <p className="text-center xl:content-left text-lg text-white">
-                  Kecamatan Ngablak, Kabupaten Magelang, Jawa Tengah, 56194
-                </p> */}
               </div>
               <span className="xl:hidden">
                 <p className="font-bold text-center text-lg text-white lg:mt-6">
@@ -49,14 +46,13 @@ const footer = () => {
                 </p>
               </span>
             </div>
-            {/* quick link */}
             <div className="flex flex-col text-lg text-white xl:gap-2 xl:text-xl gap-2 my-6">
               <div className="flex flex-col text-lg gap-2">
                 <Link
                   onClick={() => {
                     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
                   }}
-                  to="/"
+                  to="/home"
                   className="w-fit transition-colors hover:text-yellow-500 mobile:text-xl"
                 >
                   Beranda
@@ -65,7 +61,7 @@ const footer = () => {
                   onClick={() => {
                     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
                   }}
-                  to="/tentang"
+                  to="/agrowisata"
                   className="w-fit transition-colors hover:text-yellow-500 mobile:text-xl"
                 >
                   Agrowisata dan Pariwisata
@@ -74,7 +70,7 @@ const footer = () => {
                   onClick={() => {
                     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
                   }}
-                  to="/teater"
+                  to="/umkm"
                   className="w-fit transition-colors hover:text-yellow-500 mobile:text-xl"
                 >
                   UMKM
@@ -115,21 +111,8 @@ const footer = () => {
                   Email
                   <p>kantordesapandean@gmail.com</p>
                   </a>
-                {/* <p>
-                  (+62)813-9213-6199 (Priyo)
-                  <br />
-                  dsgirirejongablak@gmail.com
-                </p> */}
               </div>
-              {/* <p className="content-left text-sm text-white lg:mt-6">
-                &copy; Tim KKN Saujana Ngablak 2023
-              </p> */}
             </div>
-            {/* <div> */}
-            {/* <p className="content-left text-xs text-white mt-4 xl:mt-6">
-              Developed by Tim KKN Saujana Ngablak 2023
-            </p> */}
-            {/* </div> */}
           </div>
         </div>
       </div>

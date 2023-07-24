@@ -1,9 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import gambar1 from "../../assets/umkm/tes1.jpg";
-import gambar2 from "../../assets/umkm/tes2.jpg";
-import gambar3 from "../../assets/agrowisata/Sawit_Sm.jpg";
-import map_muncak from "../../assets/agrowisata/map-muncak.png";
+import gambar1 from "../../assets/agrowisata/telomoyo1.JPG";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Slider from "react-slick";
@@ -56,7 +53,7 @@ const Agrowisata2 = () => {
   return (
     <div
       className="items-center bg-light-green pt-20 pb-10 xl:pt-20 xl:pb-0 px-8 xl:px-24"
-      id="sawit"
+      id="telomoyo"
     >
       <div className="">
         <div
@@ -66,10 +63,10 @@ const Agrowisata2 = () => {
         >
           <div className="pointer-events-none">
             <div className="mt-1 sm:gap-1.5 md:gap-1 xl:gap-1 mobile:gap-1.5">
-              <div className="font-black text-[#FFFDEC] font-Satisfy text-2xl sm:text-3xl text-justify xl:text-4xl mb-3">
+              <div className="font-black text-basic font-Satisfy text-2xl sm:text-3xl text-justify xl:text-4xl mb-3">
               Naik Gunung Anti Ribet di Telomoyo
               </div>
-              <div className="rounded-xl bg-[#FFFDEC] text-justify p-3 mb-3 xl:hidden">
+              <div className="rounded-xl bg-basic text-justify p-3 mb-3 xl:hidden">
                 <p className="text-light-green font-bold">
                 HTM 10k dan Activities start from 80k/pax
                 </p>
@@ -83,7 +80,7 @@ const Agrowisata2 = () => {
           </div>
           <div className="container grid grid-cols-2 xl:grid-cols-2 mt-3 gap-4 pt-4">
             <div className="xl:row-span-1 hidden xl:block text-xl text-justify">
-              <div className="rounded-xl bg-[#FFFDEC] text-justify p-3 mb-3 hidden xl:flex">
+              <div className="rounded-xl bg-basic text-justify p-3 mb-3 hidden xl:flex">
                 <p className="text-light-green font-bold">
                 HTM 10k dan Activities start from 80k/pax
                 </p>
@@ -95,18 +92,21 @@ const Agrowisata2 = () => {
               bisa langsung sampai puncak dengan kendaraan.
             </div>
             <div className="xl:row-span-1 flex justify-center transform xl:pb-0 col-span-2 xl:col-span-1">
+              <div className="pb-20">
               <img
-                className="rounded-xl xl:h-3/4 w-full"
+                className="rounded-xl"
                 src={gambar1}
                 alt="rectangle"
               ></img>
+              </div>
+              
             </div>
-            <div className="flex justify-center items-center xl:h-[0%] transform xl:pb-0 md:col-span-1 xl:col-span-1">
+            {/* <div className="flex justify-center items-center xl:h-[0%] transform xl:pb-0 md:col-span-1 xl:col-span-1">
               <img className="rounded-xl" src={gambar2} alt="rectangle"></img>
             </div>
             <div className="flex justify-center transform xl:pb-0 md:col-span-1 xl:col-span-1 items-center xl:h-2/3">
               <img className="rounded-xl" src={gambar3} alt="rectangle"></img>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

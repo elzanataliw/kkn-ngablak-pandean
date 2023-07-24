@@ -67,7 +67,7 @@ const Terbaik = () => {
         >
           <div className="pointer-events-none">
             <div className="mt-1 justify-center sm:gap-1.5 md:gap-1 xl:gap-1 mobile:gap-1.5">
-              <div className="text-[#FFFDEC] text-2xl xl:text-3xl text-center mb-6">
+              <div className="text-basic text-2xl xl:text-3xl text-center mb-6">
               Pandean selalu punya cerita,
                 <br />
                 <div className="font-black mt-1">Kami tunggu ceritamu.</div>
