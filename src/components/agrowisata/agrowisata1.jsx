@@ -113,7 +113,7 @@ const Agrowisata1 = () => {
             </div>
           </div>
         </div>
-        <div className="text-light-green flex-col flex xl:flex-row xl:mt-10 items-center justify-center xl:text-xl">
+        <div className="text-light-green flex-col flex xl:flex-row xl:mt-10 items-center justify-center xl:text-xl font-bold">
         Kenikmatan dataran tinggi ada di tanganmu
           {/* <div className="text-light-green items-center sm:text-base xl:text-xl xl:w-2/3 xl:mr-10 mb-4 xl:mb-0">
           Kenikmatan dataran tinggi ada di tanganmu

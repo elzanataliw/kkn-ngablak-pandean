@@ -87,6 +87,16 @@ const Agrowisata3 = () => {
                Ingin mencari suasana baru untuk liburan bersama keluarga?
                Telomoyo Nature Park jawabannya!
               </p>
+              <Link to="/agrowisata/tnp">
+                <button
+                  onClick={() => {
+                    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+                  }}
+                  class="mt-4 rounded bg-dark-green py-2 px-6 font-Montserrat text-lg md text-basic transition-all duration-300 ease-out hover:scale-[1] hover:px-[1.33rem] hover:font-bold hover:shadow-[5px_5px_0_rgb(128,128,128)] mobile:text-sm"
+                >
+                  Informasi tanaman Telomoyo Nature Park
+                </button>
+              </Link>
             </div>
             <div className="xl:row-span-1 flex justify-center transform xl:pb-0 col-span-2 xl:col-span-1">
               <img

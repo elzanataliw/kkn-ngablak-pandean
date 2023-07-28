@@ -7,7 +7,6 @@ import gambar4 from "../../assets/agrowisata/kemahatv4.JPG";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Slider from "react-slick";
-// import "./tentang.css";
 
 const Agrowisata4 = () => {
   var settings = {
@@ -69,11 +68,6 @@ const Agrowisata4 = () => {
                 <br />
                 dan ATV adventure
               </div>
-              {/* <div className="rounded-xl bg-basic text-justify p-3 mb-3 xl:hidden">
-                <p className="text-light-green font-bold">
-                  Tiket Pendakian: 25.000
-                </p>
-              </div> */}
               <p className="text-justify xl:hidden">
               <br />
               Untuk kalian yang senang berkemah dan berpetualang, kalian juga bisa 
@@ -87,11 +81,6 @@ const Agrowisata4 = () => {
           </div>
           <div className="container grid grid-cols-2 xl:grid-cols-2 mt-3 gap-4 pt-4">
             <div className="xl:row-span-1 hidden xl:block text-xl text-justify">
-              {/* <div className="rounded-xl bg-basic text-justify p-3 mb-3 hidden xl:flex">
-                <p className="text-light-green font-bold">
-                  Tiket Pendakian: 25.000
-                </p>
-              </div> */}
               <br />
               Untuk kalian yang senang berkemah dan berpetualang, kalian juga bisa 
               menikmati sejuknya gunung dengan berkemah dan menghangatkan diri dengan api unggun.
@@ -99,17 +88,6 @@ const Agrowisata4 = () => {
               <br />
               Tak lupa menjelajahi hutan pinus, main air di air terjun Seloprojo dan menikmati 
               pemandangan indah Desa Pandean dengan 4 rute menarik yang beginner friendly
-              <br/>
-              <Link to="/agrowisata/kemahatv">
-                <button
-                  onClick={() => {
-                    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-                  }}
-                  class="mt-4 rounded bg-basic py-2 px-6 font-Montserrat text-lg md text-dark-green transition-all duration-300 ease-out hover:scale-[1] hover:px-[1.33rem] hover:font-bold hover:shadow-[5px_5px_0_rgb(128,128,128)] mobile:text-sm"
-                >
-                  Selengkapnya
-                </button>
-              </Link>
             </div>
             <div className="xl:row-span-1 flex justify-center transform xl:pb-0 col-span-2 xl:col-span-1">
               <img

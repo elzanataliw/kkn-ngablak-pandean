@@ -6,22 +6,22 @@ import "aos/dist/aos.css";
 // import "./tentang.css";
 
 const Mangium = () => {
-  const handlePendem = () => {
-    const element = document.getElementById("pendem");
+  const handleTNP = () => {
+    const element = document.getElementById("tnp");
     if (element) {
       // 👇 Will scroll smoothly to the top of the next section
       element.scrollIntoView({ behavior: "smooth" });
     }
   };
-  const handleGogik = () => {
-    const element = document.getElementById("gogik");
+  const handleKemahatv = () => {
+    const element = document.getElementById("kemahatv");
     if (element) {
       // 👇 Will scroll smoothly to the top of the next section
       element.scrollIntoView({ behavior: "smooth" });
     }
   };
-  const handleSawit = () => {
-    const element = document.getElementById("sawit");
+  const handleTelomoyo = () => {
+    const element = document.getElementById("telomoyo");
     if (element) {
       // 👇 Will scroll smoothly to the top of the next section
       element.scrollIntoView({ behavior: "smooth" });

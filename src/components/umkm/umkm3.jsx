@@ -7,7 +7,6 @@ import gambar4 from "../../assets/umkm/telomoyo.jpeg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Slider from "react-slick";
-// import "./tentang.css";
 
 const Umkm3= () => {
   var settings = {
@@ -72,9 +71,6 @@ const Umkm3= () => {
               </div>
             </div>
           </div>
-          {/* <div className="text-light-green sm:text-base xl:text-xl text-center mb-10">
-            Telusuri lebih lanjut tentang apa yang kami tawarkan.
-          </div> */}
         </div >
         <div className="container flex-col xl:flex-row flex items-center">
           <div className="relative container flex-col xl:flex-row flex items-center text-white text-sm"

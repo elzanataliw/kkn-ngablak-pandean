@@ -76,9 +76,6 @@ const Umkm1 = () => {
           <div className="container flex-col xl:flex-row flex items-center">
             <div className="transform hover:transition-all hover:scale-[105%] pb-4 xl:pb-0 px-4">
               <img className="rounded-xl" src={gambar1} alt="rectangle"></img>
-              {/* <div className="text-light-green sm:text-base text-center mr-11 text">
-                Keripik
-              </div> */}
             </div>
             <div className="transform hover:transition-all hover:scale-[105%] pb-4 xl:pb-0 px-4">
               <img className="rounded-xl" src={gambar2} alt="rectangle"></img>

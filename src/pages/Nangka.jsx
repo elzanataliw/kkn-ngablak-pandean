@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import Nangka from "../components/tanaman_gogik/nangka";
-
 import { HtmlHead } from "../components/HtmlHead";
+
+import Nangka from "../components/tanamantnp/nangka";
 
 export default function nangka() {
   return (
@@ -9,7 +9,7 @@ export default function nangka() {
       <HtmlHead
         title="Nangka"
         decription="[insert page description]"
-        link="/agrowisata/gogik/nangka"
+        link="/agrowisata/tnp/nangka"
       />
       <main className="overflow-hidden">
         <Nangka />
