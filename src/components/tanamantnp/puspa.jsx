@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import pakis from "../../assets/tanamantnp/Pakis Raksasa.jpg";
+import puspa from "../../assets/tanamantnp/Puspa.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const Pakis = () => {
+const Puspa = () => {
   const handleTNP = () => {
     const element = document.getElementById("tnp");
     if (element) {
@@ -35,61 +35,62 @@ const Pakis = () => {
   const isDesktop = width > 640;
 
   return (
-    <div className="items-center bg-basic pt-10 pb-4 px-20 xl:px-20">
+    <div className="items-center bg-basic pt-10 pb-6 px-20 xl:px-20">
       <div
         className="xl:items-center"
         data-aos="fade-up"
         data-aos-duration="1000"
       >
         <p className="font-bold text-xl">
-          Paku Gajah / Pakis Raksasa
+          Puspa
           <br />
-          <span className="italic">Angiopteris evecta</span>
+          <span className="italic">Schima wallichii</span>
         </p>
         <div className="flex flex-col xl:grid xl:grid-cols-3 xl:pt-2">
           <div className="xl:col-span-1 py-3 xl:py-0">
             <img
               className="rounded-xl"
-              src={pakis}
+              src={puspa}
               alt="rectangle"
             ></img>
           </div>
           <div className="xl:col-span-2 text-justify xl:pl-12">
             <div className="bg-dark-green text-basic p-3 rounded-lg mb-2">
-                <span className="font-bold">Divisi :</span> Tracheophyta
+                <span className="font-bold">Divisi :</span> Spermatophyta
                 <br />
-                <span className="font-bold">Kelas :</span> Marattiopsida
+                <span className="font-bold">Sub Divisi :</span> Magnoliaphyta
                 <br />
-                <span className="font-bold">Ordo :</span> Marattaiales
+                <span className="font-bold">Kelas :</span> Magnoliopsida
                 <br />
-                <span className="font-bold">Famili :</span> Marattiaceae
+                <span className="font-bold">Ordo :</span> Ericales
                 <br />
-                <span className="font-bold">Genus :</span> Angiopteris
+                <span className="font-bold">Famili :</span> Theaceae
                 <br />
-                <span className="font-bold">Spesies :</span><span className="italic"> Angiopteris evecta</span>
+                <span className="font-bold">Genus :</span> Schima
+                <br />
+                <span className="font-bold">Spesies :</span><span className="italic"> Schima wallichii</span>
             </div>
             <span className="font-bold">Habitat:</span>
             <br/>
-            Dapat hidup di daerah dengan suhu tahunan rata-rata 
-            19-27 C, curah hujan tahunan 1,054-5,447 mm, dan 
-            kemiringan tempat 0-1,492 m. Tumbuhan ini cocok 
-            tumbuh pada hutan dataran rendah sampai menengah, 
-            lembah basah, ngarai, dan tempat terbuka serta ternaungi.
+            Mampu hidup pada berbagai kondisi iklim dan habitat. 
+            Sering ditemukan di dataran redah hingga pegunungan 
+            dengan ketinggian mencapai 1000 mdpl, serta dapat 
+            hidup pada kondisi tekstur dan kesuuran tanah yang beragam.
             <br/>
             <br/>
             <span className="font-bold">Manfaat:</span>
             <br/>
-            1. Tanaman hias
+            1. Bahan bangunan
             <br/>
-            2. Bahan makanan
+            2. Bahan baku pembuat kertas
             <br/>
-            3. Obat untuk menghentikan pendarahan
+            3. Industri meubel
             <br/>
-            4. Obat batuk
+            4. Penghasil zat warna
             <br/>
-            5. Minyak aromatik
+            5. Bahan pelindung reklamasi
             <br/>
-            6. Obat pengurangan rasa nyeri
+            6. Penyumbang unsur hara sebasar 7,73 kg/tahun yang meliputi N, P, K, Ca, dan Mg
           </div>
         </div>
       </div>
@@ -97,4 +98,4 @@ const Pakis = () => {
   );
 };
 
-export default Pakis;
+export default Puspa;

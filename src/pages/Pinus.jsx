@@ -1,18 +1,18 @@
 import { Link } from "react-router-dom";
 import { HtmlHead } from "../components/HtmlHead";
 
-import Aglaonema from "../components/tanamantnp/aglaonema";
+import Pinus from "../components/tanamantnp/pinus";
 
-export default function aglaonema() {
+export default function pinus() {
   return (
     <>
       <HtmlHead
-        title="Aglaonema"
+        title="Pinus"
         decription="[insert page description]"
-        link="/agrowisata/tnp/aglaonema"
+        link="/agrowisata/tnp/pinus"
       />
       <main className="overflow-hidden">
-        <Aglaonema />
+        <Pinus />
       </main>
     </>
   );

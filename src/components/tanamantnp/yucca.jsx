@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import pakis from "../../assets/tanamantnp/Pakis Raksasa.jpg";
+import yucca from "../../assets/tanamantnp/Yucca.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const Pakis = () => {
+const Yucca = () => {
   const handleTNP = () => {
     const element = document.getElementById("tnp");
     if (element) {
@@ -42,54 +42,47 @@ const Pakis = () => {
         data-aos-duration="1000"
       >
         <p className="font-bold text-xl">
-          Paku Gajah / Pakis Raksasa
+          Yucca
           <br />
-          <span className="italic">Angiopteris evecta</span>
+          <span className="italic">Yucca aloifolia</span>
         </p>
         <div className="flex flex-col xl:grid xl:grid-cols-3 xl:pt-2">
           <div className="xl:col-span-1 py-3 xl:py-0">
             <img
               className="rounded-xl"
-              src={pakis}
+              src={yucca}
               alt="rectangle"
             ></img>
           </div>
           <div className="xl:col-span-2 text-justify xl:pl-12">
             <div className="bg-dark-green text-basic p-3 rounded-lg mb-2">
-                <span className="font-bold">Divisi :</span> Tracheophyta
+                <span className="font-bold">Divisi :</span> Trachaeophyta
                 <br />
-                <span className="font-bold">Kelas :</span> Marattiopsida
+                <span className="font-bold">Sub Divisi :</span> Magnoliaphyta
                 <br />
-                <span className="font-bold">Ordo :</span> Marattaiales
+                <span className="font-bold">Kelas :</span> Liliopsida
                 <br />
-                <span className="font-bold">Famili :</span> Marattiaceae
+                <span className="font-bold">Ordo :</span> Asparagales
                 <br />
-                <span className="font-bold">Genus :</span> Angiopteris
+                <span className="font-bold">Famili :</span> Asparageceae
                 <br />
-                <span className="font-bold">Spesies :</span><span className="italic"> Angiopteris evecta</span>
+                <span className="font-bold">Genus :</span> Yucca
+                <br />
+                <span className="font-bold">Spesies :</span><span className="italic"> Yucca aloifolia</span>
             </div>
             <span className="font-bold">Habitat:</span>
             <br/>
-            Dapat hidup di daerah dengan suhu tahunan rata-rata 
-            19-27 C, curah hujan tahunan 1,054-5,447 mm, dan 
-            kemiringan tempat 0-1,492 m. Tumbuhan ini cocok 
-            tumbuh pada hutan dataran rendah sampai menengah, 
-            lembah basah, ngarai, dan tempat terbuka serta ternaungi.
+            Hutan hujan lembab dan ekosistem subtropis basah 
+            hingga gurun dan sabana yang panas dan gersang.
             <br/>
             <br/>
             <span className="font-bold">Manfaat:</span>
             <br/>
-            1. Tanaman hias
+            1. Menjaga kesehatan rambut
             <br/>
-            2. Bahan makanan
+            2. Mencegah kerusakan kulit akibat radikal bebas
             <br/>
-            3. Obat untuk menghentikan pendarahan
-            <br/>
-            4. Obat batuk
-            <br/>
-            5. Minyak aromatik
-            <br/>
-            6. Obat pengurangan rasa nyeri
+            3. Mengatasi jerawat meradang
           </div>
         </div>
       </div>
@@ -97,4 +90,4 @@ const Pakis = () => {
   );
 };
 
-export default Pakis;
+export default Yucca;

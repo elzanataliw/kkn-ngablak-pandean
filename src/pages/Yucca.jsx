@@ -1,18 +1,18 @@
 import { Link } from "react-router-dom";
 import { HtmlHead } from "../components/HtmlHead";
 
-import Aglaonema from "../components/tanamantnp/aglaonema";
+import Yucca from "../components/tanamantnp/yucca";
 
-export default function aglaonema() {
+export default function yucca() {
   return (
     <>
       <HtmlHead
-        title="Aglaonema"
+        title="Yucca"
         decription="[insert page description]"
-        link="/agrowisata/tnp/aglaonema"
+        link="/agrowisata/tnp/yucca"
       />
       <main className="overflow-hidden">
-        <Aglaonema />
+        <Yucca />
       </main>
     </>
   );

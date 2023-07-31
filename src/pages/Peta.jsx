@@ -1,18 +1,19 @@
 import { Link } from "react-router-dom";
 import { HtmlHead } from "../components/HtmlHead";
 
-import Aglaonema from "../components/tanamantnp/aglaonema";
+import Peta1 from "../components/peta/peta1";
 
-export default function aglaonema() {
+export default function Peta() {
   return (
     <>
       <HtmlHead
-        title="Aglaonema"
+        title="peta_umkm"
         decription="[insert page description]"
-        link="/agrowisata/tnp/aglaonema"
+        link="/peta_umkm"
       />
       <main className="overflow-hidden">
-        <Aglaonema />
+        <Peta1 />
+
       </main>
     </>
   );

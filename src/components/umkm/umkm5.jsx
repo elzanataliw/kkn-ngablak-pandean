@@ -7,7 +7,6 @@ import gambar4 from "../../assets/umkm/telomoyo4.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Slider from "react-slick";
-// import "./tentang.css";
 
 const Umkm5 = () => {
   var settings = {

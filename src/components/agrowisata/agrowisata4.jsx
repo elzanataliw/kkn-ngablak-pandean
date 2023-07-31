@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import gambar1 from "../../assets/agrowisata/kemahatv1.JPG";
 import gambar2 from "../../assets/agrowisata/kemahatv2.jpg";
 import gambar3 from "../../assets/agrowisata/kemahatv3.jpg";
-import gambar4 from "../../assets/agrowisata/kemahatv4.JPG";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Slider from "react-slick";

@@ -8,6 +8,10 @@ import Bambukuning from "../components/tanamantnp/bambukuning";
 import Maranta from "../components/tanamantnp/maranta";
 import Miyana from "../components/tanamantnp/miyana";
 import Nangka from "../components/tanamantnp/nangka";
+import Pakis from "../components/tanamantnp/pakis";
+import Pinus from "../components/tanamantnp/pinus";
+import Puspa from "../components/tanamantnp/puspa";
+import Yucca from "../components/tanamantnp/yucca";
 
 export default function TanamanTNP() {
   return (
@@ -25,9 +29,10 @@ export default function TanamanTNP() {
         <Maranta />
         <Miyana />
         <Nangka />
-
-
-
+        <Pakis />
+        <Pinus />
+        <Puspa />
+        <Yucca />
       </main>
     </>
   );

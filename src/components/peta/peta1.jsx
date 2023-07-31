@@ -1,15 +1,12 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import gambar1 from "../../assets/umkm/makanan1.jpg";
-import gambar2 from "../../assets/umkm/makanan2.jpg";
-import gambar3 from "../../assets/umkm/makanan3.jpg";
-import gambar4 from "../../assets/umkm/makanan4.JPG";
-import gambar5 from "../../assets/umkm/makanan5.JPG";
+import gambar1 from "../../assets/peta/umkm_non_pertanian.jpg";
+import gambar2 from "../../assets/peta/umkm_pertanian_dan_peternakan.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Slider from "react-slick";
 
-const Umkm1 = () => {
+const Peta1 = () => {
   var settings = {
     dots: false,
     // arrows: false,
@@ -65,31 +62,22 @@ const Umkm1 = () => {
           <div className="font-black pointer-events-none">
             <div className="mt-1 justify-center sm:gap-1.5 md:gap-1 xl:gap-1 mobile:gap-1.5">
               <div className="text-light-green font-Satisfy text-2xl sm:text-3xl xl:text-4xl font-bold text-center mb-6">
-              Dahar ing Pandean
-                <div className="text-light-green sm:text-base text-center mr-10 text">
-                Mari menikmati hidangan menarik dan nikmat ala Desa Pandean. Hangat, murah meriah dan mengenyangkan!
-                </div>
+              Peta Distribusi UMKM Desa Pandean
               </div>
             </div>
           </div>
           <div className="container flex-col xl:flex-row flex items-center">
             <div className="transform hover:transition-all hover:scale-[105%] pb-4 xl:pb-0 px-4">
               <img className="rounded-xl" src={gambar1} alt="rectangle"></img>
+              <div className="text-light-green sm:text-base text-center mr-11">
+                UMKM Non Pertanian
+              </div>
             </div>
             <div className="transform hover:transition-all hover:scale-[105%] pb-4 xl:pb-0 px-4">
               <img className="rounded-xl" src={gambar2} alt="rectangle"></img>
-            </div>
-            <div className="transform hover:transition-all hover:scale-[105%] pb-4 xl:pb-0 px-4">
-              <img className="rounded-xl" src={gambar3} alt="rectangle"></img>
-            </div>
-          </div>
-          <br />
-          <div className="container flex-col xl:flex-row flex items-center">
-            <div className="transform hover:transition-all hover:scale-[105%] pb-4 xl:pb-0 px-4">
-              <img className="rounded-xl" src={gambar4} alt="rectangle"></img>
-            </div>
-            <div className="transform hover:transition-all hover:scale-[105%] pb-4 xl:pb-0 px-4">
-              <img className="rounded-xl" src={gambar5} alt="rectangle"></img>
+              <div className="text-light-green sm:text-base text-center mr-11">
+                UMKM Pertanian dan Peternakan
+              </div>
             </div>
           </div>
         </div>
@@ -98,4 +86,4 @@ const Umkm1 = () => {
   );
 };
 
-export default Umkm1;
+export default Peta1;

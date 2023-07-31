@@ -6,7 +6,6 @@ import gambar3 from "../../assets/agrowisata/tnp3.JPG";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Slider from "react-slick";
-// import "./tentang.css";
 
 const Agrowisata3 = () => {
   var settings = {

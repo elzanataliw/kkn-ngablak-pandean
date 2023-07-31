@@ -6,10 +6,10 @@ import Navbar from "./components/navbar";
 import Home from "./pages/Home";
 import Agrowisata from "./pages/Agrowisata";
 import Umkm from "./pages/Umkm";
+import Peta from "./pages/Peta";
 import TanamanTNP from "./pages/TanamanTNP";
 
 import Footer from "./components/footer";
-import Aglaonema from "./components/tanamantnp/aglaonema";
 
 function App() {
   return (
@@ -19,9 +19,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/agrowisata" element={<Agrowisata />} />
         <Route path="/umkm" element={<Umkm />} />
+        <Route path="/peta_umkm" element={<Peta />} />
         <Route path="/agrowisata/tnp" element={<TanamanTNP />} />
-
-        <Route path="/agrowisata/tnp/aglaonema" element={<Aglaonema />} />
       </Routes>
       <Footer />
     </div>
