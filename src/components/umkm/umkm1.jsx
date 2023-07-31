@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import gambar1 from "../../assets/umkm/makanan1.jpg";
 import gambar2 from "../../assets/umkm/makanan2.jpg";
 import gambar3 from "../../assets/umkm/makanan3.jpg";
-import gambar4 from "../../assets/umkm/makanan4.JPG";
-import gambar5 from "../../assets/umkm/makanan5.JPG";
+// import gambar4 from "../../assets/umkm/makanan4.JPG";
+// import gambar5 from "../../assets/umkm/makanan5.JPG";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Slider from "react-slick";
@@ -84,14 +84,14 @@ const Umkm1 = () => {
             </div>
           </div>
           <br />
-          <div className="container flex-col xl:flex-row flex items-center">
+          {/* <div className="container flex-col xl:flex-row flex items-center">
             <div className="transform hover:transition-all hover:scale-[105%] pb-4 xl:pb-0 px-4">
               <img className="rounded-xl" src={gambar4} alt="rectangle"></img>
             </div>
             <div className="transform hover:transition-all hover:scale-[105%] pb-4 xl:pb-0 px-4">
               <img className="rounded-xl" src={gambar5} alt="rectangle"></img>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
