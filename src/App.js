@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Agrowisata from "./pages/Agrowisata";
 import Umkm from "./pages/Umkm";
 import Peta from "./pages/Peta";
+import Mengenaiumkm from "./pages/Mengenaiumkm";
 import TanamanTNP from "./pages/TanamanTNP";
 
 import Footer from "./components/footer";
@@ -20,6 +21,7 @@ function App() {
         <Route path="/agrowisata" element={<Agrowisata />} />
         <Route path="/umkm" element={<Umkm />} />
         <Route path="/peta_umkm" element={<Peta />} />
+        <Route path="/mengenai_umkm" element={<Mengenaiumkm />} />
         <Route path="/agrowisata/tnp" element={<TanamanTNP />} />
       </Routes>
       <Footer />

@@ -55,7 +55,7 @@ const Agrowisata3 = () => {
     <div className="items-center bg-basic py-10 xl:pt-12 xl:pb-0 px-8 xl:px-24 xl:-mb-24">
       <div className="">
         <div
-          className="relative items-center text-sm"
+          className="relative items-center text-sm z-0"
           data-aos="fade-down"
           data-aos-duration="1000"
         >
@@ -75,6 +75,16 @@ const Agrowisata3 = () => {
                Telomoyo Nature Park jawabannya!
               </p>
             </div>
+            <Link to="/agrowisata/tnp" className="z-50 xl:hidden">
+                <button
+                  onClick={() => {
+                    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+                  }}
+                  class="mt-4 rounded bg-dark-green py-2 px-6 z-50 font-Montserrat text-lg md text-basic transition-all duration-300 ease-out hover:scale-[1] hover:px-[1.33rem] hover:font-bold hover:shadow-[5px_5px_0_rgb(128,128,128)] mobile:text-sm"
+                >
+                  Informasi tanaman Telomoyo Nature Park
+                </button>
+              </Link>
           </div>
           <div className="container grid grid-cols-2 xl:grid-cols-2 mt-3 gap-4 pt-4">
             <div className="xl:row-span-1 hidden xl:block text-xl text-justify text-dark-green">

@@ -21,13 +21,13 @@ const Tentang = () => {
         >
           <div className="sm:text-3xl md:text-4xl lg:text-5xl xl:mb-5 xl:text-5xl pointer-events-none">
             <div className="mt-1 flex flex-row sm:gap-1.5 md:gap-1 xl:gap-1 mobile:gap-1.5">
-              <p className="font-Satisfy text-[#547758] mobile:text-2xl font-bold mb-3">
+              <p className="font-Satisfy text-dark-green mobile:text-2xl font-bold mb-3">
                 Tentang Pandean
               </p>
             </div>
           </div>
 
-          <div className="text-justify text-[#547758] sm:text-base xl:text-xl">
+          <div className="text-justify text-dark-green sm:text-base xl:text-xl">
           Terletak di antara 4 gunung, yaitu Telomoyo, Andong, 
           Sumbing dan Sindoro, Desa Pandean memberikan suasana baru 
           dengan udaranya yang sejuk dan pemandangannya yang asri.
@@ -44,18 +44,19 @@ const Tentang = () => {
             Desa Pandean menunggu kedatangan Anda.
             </p>
           </div>
-          {/* <Link to="/tentang">
-            <button
-              onClick={() => {
+          <div>
+            <a href="https://storymaps.arcgis.com/stories/f8adad40e61943888ca13d296b2cf73f" 
+            target="_blank" rel="noopener noreferrer">
+              <button onClick={() => {
                 window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
               }}
-              class="mt-4 rounded bg-[#547758] py-2 px-6 font-Montserrat text-lg md text-white transition-all duration-300 ease-out hover:scale-[1] hover:px-[1.33rem] hover:font-bold hover:shadow-[5px_5px_0_rgb(128,128,128)]  mobile:text-sm"
-            >
-              Selengkapnya
-            </button>
-          </Link> */}
+              class="mt-4 rounded bg-dark-green py-2 px-6 font-Montserrat text-lg md text-white transition-all duration-300 ease-out hover:scale-[1] hover:px-[1.33rem] hover:font-bold hover:shadow-[5px_5px_0_rgb(128,128,128)] mobile:text-sm"
+              >
+                Selengkapnya
+              </button>
+            </a>
+           </div>
         </div>
-
         <div
           className="mt-12 xl:mt-0 flex justify-center items-center container"
           data-aos="fade-up"
@@ -68,7 +69,7 @@ const Tentang = () => {
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
-            title="map_girirejo"
+            title="map_pandean"
           ></iframe>
         </div>
       </div>

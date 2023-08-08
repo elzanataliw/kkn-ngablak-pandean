@@ -5,6 +5,7 @@ import Agrowisata1 from "../components/agrowisata/agrowisata1";
 import Agrowisata2 from "../components/agrowisata/agrowisata2";
 import Agrowisata3 from "../components/agrowisata/agrowisata3";
 import Agrowisata4 from "../components/agrowisata/agrowisata4";
+import Video from "../components/agrowisata/video";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Agrowisata2 />
         <Agrowisata3 />
         <Agrowisata4 />
+        <Video />
       </main>
     </>
   );

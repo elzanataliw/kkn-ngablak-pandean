@@ -5,7 +5,6 @@ import Umkm1 from "../components/umkm/umkm1";
 import Umkm2 from "../components/umkm/umkm2";
 import Umkm3 from "../components/umkm/umkm3";
 import Umkm4 from "../components/umkm/umkm4";
-import Umkm5 from "../components/umkm/umkm5";
 
 export default function Home() {
   return (
@@ -19,7 +18,7 @@ export default function Home() {
         <Umkm1 />
         <Umkm2 />
         <Umkm3 />
-        <Umkm5 />
+        <Umkm4 />
       </main>
     </>
   );

@@ -1,11 +1,12 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import gambar1 from "../../assets/umkm/pembibitan_gondangan.jpg";
-import gambar2 from "../../assets/umkm/pembibitan_dempel.jpg";
+import gambar1 from "../../assets/umkm/telomoyo1.JPG";
+import gambar2 from "../../assets/umkm/telomoyo2.JPG";
+import gambar3 from "../../assets/umkm/telomoyo3.jpg";
+import gambar4 from "../../assets/umkm/telomoyo4.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Slider from "react-slick";
-// import "./tentang.css";
 
 const Umkm4 = () => {
   var settings = {
@@ -53,86 +54,55 @@ const Umkm4 = () => {
   const isDesktop = width > 640;
 
   return (
-    <div className="items-center bg-basic pt-8 pb-12 xl:py-12">
-      <div
-        className="relative items-center"
-        data-aos="fade-down"
-        data-aos-duration="1000"
-      >
-        <div className="font-black bg-dark-green mb-8 py-6 text-2xl xl:text-4xl text-basic text-center">
-          SUMBER DARI BIBIT BERKUALITAS
+    <div className="items-center bg-basic pt-24 pb-12 xl:py-24">
+      <div className="">
+        <div
+          className="relative items-center text-white text-sm"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+        >
+          <div className="font-black pointer-events-none">
+            <div className="mt-1 justify-center">
+            <div className="font-black bg-dark-green mb-8 py-6 text-2xl xl:text-4xl text-basic text-center">
+          SEMUA BISA DI TELOMOYO
         </div>
-
-        <div className="flex-col flex xl:grid xl:grid-cols-2 xl:px-24">
-          <div className="bg-dark-green w-full col-span-1">
-            <p className="font-bold text-basic pt-2 text-lg">Dempel</p>
-            <div className="flex justify-center items-center">
-              <iframe
-                className="h-[400px] w-full pb-8 px-4"
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3956.688486936147!2d110.3872587!3d-7.3887619!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a7d57b257417d%3A0x506ea14894d2aa2d!2sDempel!5e0!3m2!1sid!2sid!4v1689310345856!5m2!1sid!2sid"
-                title="map_dempel"
-                style={{ border: 0 }}
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
             </div>
           </div>
-          <div className="px-4 py-8 col-span-1">
-            <div className="font-black pointer-events-none">
-              <div className="mt-1 justify-center sm:gap-1.5 md:gap-1 xl:gap-1 mobile:gap-1.5">
-                <div className="text-light-green font-Satisfy text-3xl sm:text-3xl xl:text-5xl font-bold text-left mb-4 xl:mb-12">
-                  Sentra Pembibitan
-                  {/* <div className="text-light-green text-lg sm:text-base text-center text">
-                  Produk yang sedang dikembangkan
-                </div> */}
-                </div>
-              </div>
+          <div className="grid grid-cols-4 xl:grid-cols-6 xl:flex-row items-center justify-center px-4">
+            <div className=" xl:pb-0 content-center justify-self-center col-span-2 xl:col-span-2 xl:col-start-2 flex justify-center items-center mb-3 mr-1">
+              <img
+                className="rounded-xl h-full w-full items-center flex justify-center content-center justify-self-center"
+                src={gambar1}
+                alt="rectangle"
+              ></img>
             </div>
-            <div className="text-dark-green text-justify text-lg">
-              Desa Girirejo menjadi sumber dari bibit bibit tanaman berkualitas,
-              bagi anda yang memiliki kegiatan bertani dan memiliki ketertarikan
-              pada tanaman bisa langsung datang ke Desa Girirejo untuk
-              mendapatkan bibit yang berkualitas tepatnya di dusun Gondang Wetan
-              dan Dusun Dempel.
+            <div className="xl:pb-0 content-center justify-self-center col-span-2 xl:col-span-2 xl:col-start-4 flex justify-center items-center mb-3 ml-1">
+              <img
+                className="rounded-xl h-full w-full items-center flex justify-center content-center justify-self-center"
+                src={gambar2}
+                alt="rectangle"
+              ></img>
             </div>
-          </div>
-          <div className="xl:mt-12 col-span-1">
-            <div className="pb-8 px-4">
-              <div className="xl:h-[40vh]">
-                <img
-                  className="rounded-xl h-full w-full items-center flex justify-center content-center"
-                  src={gambar1}
-                  alt="rectangle"
-                ></img>
-              </div>
-              <div className="py-4"></div>
-              <div className="xl:h-[40vh]">
-                <img
-                  className="rounded-xl h-full w-full items-center flex justify-center content-center"
-                  src={gambar2}
-                  alt="rectangle"
-                ></img>
-              </div>
+            <div className="xl:pb-0 content-center justify-self-center col-span-2 xl:col-span-2 xl:col-start-2 flex justify-center items-center mb-3 mr-1">
+              <img
+                className="rounded-xl h-full w-full items-center flex justify-center content-center"
+                src={gambar3}
+                alt="rectangle"
+              ></img>
+            </div>
+            <div className="xl:pb-0 content-center justify-self-center col-span-2 xl:col-span-2 xl:col-start-4 flex justify-center items-center mb-3 ml-1">
+              <img
+                className="rounded-xl h-full w-full items-center flex justify-center content-center"
+                src={gambar4}
+                alt="rectangle"
+              ></img>
             </div>
           </div>
-          <div className=" w-full col-span-1 xl:mt-12">
-            <div className="bg-light-green">
-              <p className="font-bold text-basic pt-2 text-lg">
-                Gondangan Wetan
-              </p>
-              <div className="flex justify-center items-center">
-                <iframe
-                  className="h-[400px] w-full pb-8 px-4"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.6338400644827!2d110.39033896991351!3d-7.394861648787045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a7c3073cbc249%3A0x60dbf6cedbefd1ba!2sGondangan%20Wetan%2C%20Girirejo%2C%20Kec.%20Ngablak%2C%20Kabupaten%20Magelang%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1689313612089!5m2!1sid!2sid"
-                  allowfullscreen=""
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
-                  title="map_gondangan_wetan"
-                ></iframe>
-              </div>
-            </div>
-          </div>
+          <div className="text-light-green text-sm xl:text-lg text-center mt-2 font-semibold">
+            Berkeliling menikmati pemandangan memukau sekitar Desa Pandean dan Gunung Telomoyo bisa juga Anda lakukan,
+            <br/>
+            Atau bersantai sejenak sambil foto-foto di cafe pilihan Anda!    
+              </div>      
         </div>
       </div>
     </div>

@@ -66,7 +66,7 @@ const Umkm1 = () => {
             <div className="mt-1 justify-center sm:gap-1.5 md:gap-1 xl:gap-1 mobile:gap-1.5">
               <div className="text-light-green font-Satisfy text-2xl sm:text-3xl xl:text-4xl font-bold text-center mb-6">
               Dahar ing Pandean
-                <div className="text-light-green sm:text-base text-center mr-10 text">
+                <div className="text-light-green text-base sm:text-xl xl:text-2xl text-center mx-10">
                 Mari menikmati hidangan menarik dan nikmat ala Desa Pandean. Hangat, murah meriah dan mengenyangkan!
                 </div>
               </div>
