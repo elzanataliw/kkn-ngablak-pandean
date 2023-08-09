@@ -42,7 +42,7 @@ const Kelerengan = () => {
               onClick={() => openFotoGambar1(gambar1)}
             >
               <img
-                className="rounded-xl sm:py-1 sm:px-1 xl:py-30 xl:px-40"
+                className="rounded-xl sm:py-1 sm:px-1 xl:py-10 xl:px-40"
                 src={gambar1}
                 alt="rectangle"
               ></img>
