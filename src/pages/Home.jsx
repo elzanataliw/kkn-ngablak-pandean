@@ -5,6 +5,7 @@ import Homepage from "../components/home/homepage";
 import Tentang from "../components/home/tentang";
 import Terbaik from "../components/home/terbaik";
 import Cerita from "../components/home/cerita";
+import Kelerengan from "../components/home/kelerengan";
 export default function Home() {
   return (
     <>
@@ -16,6 +17,7 @@ export default function Home() {
       <main className="overflow-hidden">
         <Homepage />
         <Tentang />
+        <Kelerengan />
         <Terbaik />
         <Cerita />
       </main>

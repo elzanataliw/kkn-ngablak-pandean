@@ -54,7 +54,7 @@ const Umkm4 = () => {
   const isDesktop = width > 640;
 
   return (
-    <div className="items-center bg-basic pt-24 pb-12 xl:py-24">
+    <div className="items-center bg-basic pt-8 pb-12 xl:py-24">
       <div className="">
         <div
           className="relative items-center text-white text-sm"

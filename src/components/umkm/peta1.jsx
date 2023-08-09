@@ -85,7 +85,7 @@ const Peta1 = () => {
                   className={`m-auto p-1 relative rounded-xl shadow green-900`}
                 >
                   <button
-                    className="md:text-4xl text-3xl text-dark-blue absolute md:right-0 right-0 px-2 pt-4 rounded-full overflow-hidden z-40"
+                    className="md:text-4xl text-3xl text-dark-green absolute md:right-0 right-0 px-2 pt-4 rounded-full overflow-hidden z-40"
                     onClick={closeFotoGambar1}
                   >
                     <FontAwesomeIcon icon={faTimes} />
@@ -113,7 +113,7 @@ const Peta1 = () => {
                   className={`m-auto p-1 relative rounded-xl shadow green-900`}
                 >
                   <button
-                    className="md:text-4xl text-3xl text-dark-blue absolute md:right-0 right-0 px-2 pt-4 rounded-full overflow-hidden z-40"
+                    className="md:text-4xl text-3xl text-dark-green absolute md:right-0 right-0 px-2 pt-4 rounded-full overflow-hidden z-40"
                     onClick={closeFotoGambar2}
                   >
                     <FontAwesomeIcon icon={faTimes} />

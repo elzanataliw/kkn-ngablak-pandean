@@ -22,7 +22,7 @@ function App() {
         <Route path="/umkm" element={<Umkm />} />
         <Route path="/peta_umkm" element={<Peta />} />
         <Route path="/mengenai_umkm" element={<Mengenaiumkm />} />
-        <Route path="/agrowisata/tnp" element={<TanamanTNP />} />
+        <Route path="/agrowisata/informasitanamanTNP" element={<TanamanTNP />} />
       </Routes>
       <Footer />
     </div>

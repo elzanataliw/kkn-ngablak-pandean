@@ -55,7 +55,7 @@ const Agrowisata3 = () => {
     <div className="items-center bg-basic py-10 xl:pt-12 xl:pb-0 px-8 xl:px-24 xl:-mb-24">
       <div className="">
         <div
-          className="relative items-center text-sm z-0"
+          className="relative items-center text-sm"
           data-aos="fade-down"
           data-aos-duration="1000"
         >
@@ -75,7 +75,7 @@ const Agrowisata3 = () => {
                Telomoyo Nature Park jawabannya!
               </p>
             </div>
-            <Link to="/agrowisata/tnp" className="z-50 xl:hidden">
+            <Link to="/agrowisata/informasitanamanTNP" className="z-0 xl:hidden">
                 <button
                   onClick={() => {
                     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
@@ -96,7 +96,7 @@ const Agrowisata3 = () => {
                Ingin mencari suasana baru untuk liburan bersama keluarga?
                Telomoyo Nature Park jawabannya!
               </p>
-              <Link to="/agrowisata/tnp">
+              <Link to="/agrowisata/informasitanamanTNP">
                 <button
                   onClick={() => {
                     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });

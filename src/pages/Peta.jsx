@@ -7,9 +7,9 @@ export default function Peta() {
   return (
     <>
       <HtmlHead
-        title="Peta Persebaran UMKM"
+        title="Peta Distribusi UMKM"
         decription="[insert page description]"
-        link="/persebaran_umkm"
+        link="/peta_umkm"
       />
       <main className="overflow-hidden">
         <Peta1 />

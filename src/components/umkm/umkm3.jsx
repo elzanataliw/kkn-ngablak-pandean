@@ -72,7 +72,7 @@ const Umkm3= () => {
             </div>
           </div>
         </div >
-        <div className="container flex-col xl:flex-row flex items-center">
+        <div className="flex-col xl:flex-row flex items-center">
           <div className="relative container flex-col xl:flex-row flex items-center text-white text-sm"
             data-aos-duration="1000" data-aos="fade-right">
             <div className="transform hover:transition-all hover:scale-[105%] pb-4 xl:pb-0 px-4">

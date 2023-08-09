@@ -19,7 +19,7 @@ export default function TanamanTNP() {
       <HtmlHead
         title="tnp"
         decription="[insert page description]"
-        link="/agrowisata/tnp"
+        link="/agrowisata/informasitanamanTNP"
       />
       <main className="overflow-hidden">
         <Aglaonema />
